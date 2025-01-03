@@ -51,20 +51,10 @@
         layer_keypad {
             bindings = <
     &trans     &trans     &trans            &trans             &trans     &trans            &trans                                                                &trans    &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE       &kp KP_NUM  &trans
-   &kp TAB   &kp EXCL     &kp AT    &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp PIPE            &trans                                                                &trans  &kp DLLR      &kp N7        &kp N8         &kp N9  &kp KP_MULTIPLY  &trans
+   &kp TAB   &kp EXCL     &kp AT    &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp PIPE            &trans                                                                 &none  &kp DLLR      &kp N7        &kp N8         &kp N9  &kp KP_MULTIPLY  &trans
    &kp ESC  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE            &trans  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL     &trans     &kp H      &kp N4        &kp N5         &kp N6      &kp KP_PLUS  &trans
  &kp LSHFT  &kp PRCNT  &kp CARET             &kp C              &kp V  &kp TILDE                               &kp HOME                  &kp PG_UP                           &kp N      &kp N1        &kp N2         &kp N3    &kp BACKSLASH  &trans
      &mo 2  &kp SPACE  &kp SPACE          &kp LEFT          &kp RIGHT                       &trans     &trans   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0                &trans        &kp N0     &kp KP_DOT     &kp KP_EQUAL  &trans
-            >;
-        };
-
-        layer_fn {
-            bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
         };
 
@@ -78,7 +68,7 @@
             >;
         };
 
-        layer_Layer__4 {
+        layer_Layer__3 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans               &trans                                                                     &trans     &trans    &trans    &trans     &trans    &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans               &trans                                                                     &trans  &kp PG_UP  &kp HOME    &kp UP    &kp END   &kp DEL  &trans
